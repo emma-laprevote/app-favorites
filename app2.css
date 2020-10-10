@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    width: 100%;
+}
+
+/* CSS HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 3em;
+    background-color: #2D3231;
+    opacity: 95%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: -0.7em 0 0 26em;
+}
+
+nav li {
+
+    margin-right: 1em;
+    border-right: black solid 0.5px;
+    padding: 1em 2em 1em 0.5em;
+    
+}
+
+nav a {
+    color: #8B9493;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    
+}
+
+.iconea {
+    width: 6em;
+}
+
+.icones {
+    width: 3em;
+    padding-top: 0.3em;
+}
+
+.iconev {
+    width: 4em;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.4em 2em 0 0;
+    opacity: 80%;
+}
+
+.liens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em 2em 0 0;
+    opacity: 80%;
+    padding-top: 2em;
+}
+
+.menu {
+    margin-top: 0.5em;
+}
+
+/* CSS MAIN */
+
+.soundcloud {
+    display: flex;
+    flex-direction: row;
+}
+
+.playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    margin: 5em 0 0 2em;
+}
+
+iframe {
+    margin-left: 2em;
+    border: 0;
+    overflow: hidden;
+}
+
+.slid_1 {
+    background-image: url('images/concert2.jpg');
+    width: 20em;
+    height: 34em;
+    margin-top: 3em;
+    
+}
+
+#logo1 {
+    width: 7em;
+    margin: 1em 0 0 12em;
+}
+
+.slogan {
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+    color: white;
+    margin: 0 2em 0 0.5em;
+    padding-top: 8em;
+}
+
+#button {
+    width: 7em;
+    margin: -5em 0 0 11em;
+}
+
+#capture3 {
+    width: 11em;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 black;
+    margin: 1.5em 0 0 2em;
+}
+
+#googleplay, #applestore {
+    width: 10em;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    opacity: 90%;
+    font-size: 1.3em;
+    margin: 2em 0 0 2em;
+}
+
+#googleplay {
+    margin: -2em 0 0 2em;
+}
+
+#applestore {
+    margin: -1.5em 0 0 0;
+    height: 3.2em;
+}
+
+#logo2 {
+    width: 10em;
+    margin: 2em 0 0 2em;
+}
+
+.para {
+    margin: -0.2em 7em 0 2em;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 13px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.tt {
+    display: flex;
+    flex-direction: column;
+}
+
+.liens3 {
+    margin: 2em 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.presentation {
+    margin: -1em 0 0 0.5em;
+}
+
+/* CSS FOOTER */
+
+footer {
+    margin-top: -2em;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    opacity: 90%;
+    height: 6em;
+
+}

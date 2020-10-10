@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    width: 100%;
+    background-image: url('images/positive.png');
+}
+
+/* CSS HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 6em;
+    background-color: black;
+    opacity: 90%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: -0.5em 0 0 25em;
+}
+
+nav li {
+
+    margin-right: 3em;
+    
+}
+
+nav a {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: overline #D17172 2px;
+    
+}
+
+.iconea {
+    width: 6em;
+}
+
+.icones {
+    width: 3em;
+    padding-top: 0.3em;
+}
+
+.iconev {
+    width: 4em;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2em 2em 0 0;
+    opacity: 80%;
+}
+
+.liens2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em 2em 0 0;
+    opacity: 80%;
+    padding-top: 2em;
+}
+
+/* CSS MAIN */
+
+body {
+    margin-top: 9em;
+}
+
+article {
+
+    margin-top: 12em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.appfav {
+    margin-left: 12em;
+    height: 40em;
+    margin-bottom: 15em;
+}
+
+#airbnbcapture, #vicemediacapture {
+    width: 15em;
+}
+
+#soundcloudcapture {
+    width: 18em;
+}
+
+.soundcloud {
+    margin-top: -9em;
+    background-color: white;
+    width: 20em;
+    height: 34em;
+    padding: 2em 0 0 2em;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 black;
+    z-index: 1;
+}
+
+.airbnb, .vicemedia {
+    margin-top: -6em;
+    background-color: white;
+    width: 17em;
+    height: 28em;
+    padding: 2em 0 0 2em;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 black;
+  
+}
+
+.airbnb, .soundcloud, .vicemedia {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.airbnb:hover, .soundcloud:hover, .vicemedia:hover{
+	-webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 2;
+    opacity: 95%;
+}
+
+#iconeairbnb, #iconesoundcloud, #iconevice {
+    width: 4em;
+}
+
+#iconeairbnb, #iconevice {
+    margin-top: 4em;
+}
+
+.vic {
+    margin: 0 0 -5em 16em;
+
+}
+
+.sound {
+    margin: 1em 0 0 17em;
+}
+
+.air {
+    margin: 0 0 0 7em;
+}
+
+.icono {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    
+}
+
+
+/* CSS FOOTER */
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    opacity: 90%;
+    height: 6em;
+
+}
